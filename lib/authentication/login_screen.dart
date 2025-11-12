@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:sanctuary_flutter/core/utils/constants.dart';
-import 'package:sanctuary_flutter/core/widgets/primary_button.dart';
+import 'package:sanctuary_flutter/core/widgets/sanctuary_button.dart';
 import 'package:sanctuary_flutter/core/widgets/sanctuary_password_field.dart';
 import 'package:sanctuary_flutter/core/widgets/sanctuary_text_field.dart';
 import 'package:sanctuary_flutter/core/utils/colors.dart';
@@ -50,7 +50,7 @@ class LoginScreen extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.only(top: kMarginLarge),
-                child: PrimaryButton.fullWidthPrimary(
+                child: SanctuaryButton.fullWidthPrimary(
                   label: kLogin,
                   onTap: () {},
                 ),
@@ -64,7 +64,7 @@ class LoginScreen extends StatelessWidget {
               ),
               Padding(
                 padding: EdgeInsets.only(top: kMarginLarge),
-                child: PrimaryButton.fullWidthSecondary(
+                child: SanctuaryButton.fullWidthSecondary(
                   label: kSignUp,
                   onTap: () {
                     context.pushNamed(kRegisterRoute);

@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:sanctuary_flutter/core/utils/colors.dart';
 import 'package:sanctuary_flutter/core/utils/dimens.dart';
 
-class PrimaryButton extends StatelessWidget {
+class SanctuaryButton extends StatelessWidget {
   final double? width;
   final String label;
   final Color backgroundColor;
   final Function onTap;
 
-  const PrimaryButton({
+  const SanctuaryButton({
     super.key,
     required this.label,
     required this.width,
@@ -16,7 +16,7 @@ class PrimaryButton extends StatelessWidget {
     required this.onTap,
   });
 
-  const PrimaryButton.fullWidthPrimary({
+  const SanctuaryButton.fullWidthPrimary({
     super.key,
     required this.label,
     this.width = double.infinity,
@@ -24,7 +24,7 @@ class PrimaryButton extends StatelessWidget {
     required this.onTap,
   });
 
-  const PrimaryButton.intrinsicWidthPrimary({
+  const SanctuaryButton.intrinsicWidthPrimary({
     super.key,
     required this.label,
     this.width = null,
@@ -32,7 +32,7 @@ class PrimaryButton extends StatelessWidget {
     required this.onTap,
   });
 
-  const PrimaryButton.fullWidthSecondary({
+  const SanctuaryButton.fullWidthSecondary({
     super.key,
     required this.label,
     this.width = double.infinity,
@@ -40,7 +40,7 @@ class PrimaryButton extends StatelessWidget {
     required this.onTap,
   });
 
-  const PrimaryButton.intrinsicWidthSecondary({
+  const SanctuaryButton.intrinsicWidthSecondary({
     super.key,
     required this.label,
     this.width = null,

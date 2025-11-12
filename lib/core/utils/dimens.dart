@@ -10,6 +10,8 @@ const double kMarginXXLarge = 48;
 
 const double kTextRegular =14;
 const double kTextRegular2x = 16;
+const double kTextRegular3x = 20;
+const double kTextLarge = 24;
 
 const double kAppLogoWidth = 182;
 const double kAppLogoHeight = 185;
