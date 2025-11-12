@@ -1,0 +1,1 @@
+const kAppLogo = "assets/images/sanctuary_logo.png";
